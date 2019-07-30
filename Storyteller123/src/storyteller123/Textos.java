@@ -52,7 +52,6 @@ public class Textos {
     
     
     public static String narrar(){
-        Documentos joagador = new  Documentos();
         return "Bla bla bla narracao";
     }
 
