@@ -5,6 +5,17 @@ public class Pessoa {
     
     private String nome;
     private int idade;
+    
+        
+    public Pessoa(String name, int idade) {
+		// TODO Auto-generated constructor stub
+    	this.nome = name;
+    	this.idade = idade;
+   }
+    
+    public Pessoa() {
+		// TODO Auto-generated constructor stub
+    }
 
     //Getters e Setters
     public String getNome() {
