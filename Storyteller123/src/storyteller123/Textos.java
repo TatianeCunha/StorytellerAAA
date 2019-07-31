@@ -6,11 +6,13 @@ public class Textos {
     
     static int i;
     
-    public Textos(){
-        i = 1;
-    }
     
     public String getTextos(){
+        
+        if(i == 0){
+            i = 1;
+        }
+        
         switch (i){
             case 1:
                 i++;
@@ -24,25 +26,25 @@ public class Textos {
                         + "\n-rido nesta manhã, enquanto sente algo estrado no objeto em que está se apoiando.\n\n\n";
             case 2:
                 i++;
-                return "[0][2]";
+                return "Texto 2";
              case 3:
                 i++;
-                return "[0][3]";
+                return "Texto 3";
              case 4:
                 i++;
-            return "[0][4]";
+            return "Texto 4";
             case 5:
                 i++;
-                return "[0][5]";
+                return "Texto 5";
             case 6:
                 i++;
-                return "[0][6]";
+                return "Texto 6";
              case 7:
                 i++;
-                return "[0][7]";
+                return "Texto 7";
              case 8:
                 i++;
-            return "[0][8]";
+            return "Texto 8...";
         
         }
         
