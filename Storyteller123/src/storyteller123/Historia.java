@@ -13,20 +13,6 @@ public class Historia {
 		for (int i = 0; i < eventos.length; i++) {
 			if (eventos[i] == null) {
 				eventos[i] = evento;
-                                /*Em matriz, se o "i" for o último espaço em branco da linha, 
-                                o "j" incrementa em 1 e passa para a próxima coluna*/
-                                                                 /*  if(i == eventos.length - 1){
-                                                                        part++;
-                                                                        switch(part){
-                                                                            case 1:
-                                                                                Documentos pista1 = new Documentos();
-                                                                        
-                                                                        }
-                                                                
-                                                                            
-                                                                        
-                                                                        
-                                                                    }*/
 				break;
 			}
                                                         
@@ -45,7 +31,7 @@ public class Historia {
 	public void getHistoria() {
                             int j ;
                             
-                           for (int i = 0; i < 4; i = j) {
+                           for (int i = 0; i < eventos.length; i = j) {
 
                                 switch (i) {
                                     case 3:
