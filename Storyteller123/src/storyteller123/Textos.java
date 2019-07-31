@@ -7,6 +7,20 @@ public class Textos {
     static int i;
     
     
+    public static String getTextos(Pessoa jogador){
+        //Textos que conterão dados do jogador
+        //case 5 é apenas um exemplo
+        switch(i){
+            case 5:
+                    i++;
+                    return jogador.getNome() + " deu um soco na cara do assassino";
+            default:
+                i++;
+                return "Respirou fundo";
+        }
+    }
+    
+    
     public static String getTextos(){
         
         if(i == 0){
