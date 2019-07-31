@@ -7,7 +7,7 @@ public class Textos {
     static int i;
     
     
-    public String getTextos(){
+    public static String getTextos(){
         
         if(i == 0){
             i = 1;
