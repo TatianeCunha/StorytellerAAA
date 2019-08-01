@@ -9,6 +9,7 @@ public class Caixa {
 	
 	public static String retorna (String message) {
 		return (JOptionPane.showInputDialog(null, message, null, JOptionPane.PLAIN_MESSAGE));
+		//to escrevendo um teste
 		
 	}
 
